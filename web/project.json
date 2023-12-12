@@ -8,14 +8,13 @@
       "executor": "@nx/next:build",
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
-      "options": {
-        "outputPath": "dist/web"
-      },
       "configurations": {
         "development": {
           "outputPath": "web"
         },
-        "production": {}
+        "production": {
+          "outputPath": "dist/web/.next"
+        }
       }
     },
     "serve": {
