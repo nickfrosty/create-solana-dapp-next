@@ -7,7 +7,8 @@ const { composePlugins, withNx } = require('@nx/next');
  * @type {import('@nx/next/plugins/with-nx').WithNxOptions}
  **/
 const nextConfig = {
-  distDir: '../../dist/web',
+  // set the output directory to match the one used within the `project.json`
+  distDir: '../../dist/web/.next',
   webpack: (config) => {
     config.externals = [
       ...(config.externals || []),

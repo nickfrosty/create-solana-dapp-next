@@ -15,9 +15,7 @@
         "development": {
           "outputPath": "web"
         },
-        "production": {
-          "outputPath": "dist/web"
-        }
+        "production": {}
       }
     },
     "serve": {
