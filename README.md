@@ -24,7 +24,7 @@ cd <repo-name>
 #### Install Dependencies
 
 ```shell
-npm run install
+npm install
 ```
 
 #### Start the web app
